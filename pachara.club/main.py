@@ -9,7 +9,7 @@ from colorant import Colorant
 TOGGLE_KEY = 'F1'  # Toggle on/off colorant key
 XFOV = 50  # X-Axis FOV
 YFOV = 50  # Y-Axis FOV
-INGAME_SENSITIVITY = 0.4 # Replace this with the your in-game sensitivity value
+INGAME_SENSITIVITY = 0.503 # Replace this with the your in-game sensitivity value
 FLICKSPEED = 1.07437623 * (INGAME_SENSITIVITY ** -0.9936827126)  # Calculate flick speed
 MOVESPEED = 1 / (5 * INGAME_SENSITIVITY) # Calculate move speed
 
@@ -34,9 +34,9 @@ def main():
     print(colored('[Info]', 'green'), colored('Set enemies to', 'white'), colored('Purple', 'magenta'))
     print(colored('[Info]', 'green'), colored(f'Press {colored(TOGGLE_KEY, "magenta")} toggle ON/OFF ', 'white'))
     print(colored('[Info]', 'green'), colored(f'Press', 'white'), colored('F2', 'magenta'), colored('toggle ON/OFF Window Detection', 'white'))
-    print(colored('[Info]', 'green'), colored('RightMB', 'magenta'), colored('= Aimbot', 'white'))
-    print(colored('[Info]', 'green'), colored('LeftAlt', 'magenta'), colored('= Triggerbot', 'white'))
-    print(colored('[Info]', 'green'), colored('LeftCtrl', 'magenta'), colored('= Silentaim', 'white'))
+    print(colored('[Info]', 'green'), colored('lAlt', 'magenta'), colored('= Aimbot', 'white'))
+    print(colored('[Info]', 'green'), colored('X2MB', 'magenta'), colored('= Triggerbot', 'white'))
+    print(colored('[Info]', 'green'), colored('X1MB', 'magenta'), colored('= Silentaim', 'white'))
     print(colored('[Info]', 'green'), colored('GitHub:', 'white'),
           '\033[35;4mhttps://github.com/pachara1337\033[0m')
     print(colored('[Info]', 'green'), colored('Contact', 'white'), colored('thug@pachara.club', 'magenta'))
