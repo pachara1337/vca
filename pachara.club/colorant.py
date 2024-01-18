@@ -31,11 +31,11 @@ class Colorant:
             if win32api.GetAsyncKeyState(0x71) < 0:
                 toggle_window(self)
                 time.sleep(0.2)
-            if win32api.GetAsyncKeyState(0x02) < 0 and self.toggled:
+            if win32api.GetAsyncKeyState(0x12) < 0 and self.toggled:
                 self.process("move")
-            elif win32api.GetAsyncKeyState(0x12) < 0 and self.toggled:
+            elif win32api.GetAsyncKeyState(0x06) < 0 and self.toggled:
                 self.process("click")
-            elif win32api.GetAsyncKeyState(0x11) < 0 and self.toggled:
+            elif win32api.GetAsyncKeyState(0x05) < 0 and self.toggled:
                 self.process("flick")
 
     def process(self, action):
