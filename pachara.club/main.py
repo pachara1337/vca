@@ -6,9 +6,9 @@ from termcolor import colored
 from colorant import Colorant
 
 #Settings
-TOGGLE_KEY = 'F1'  # Toggle on/off colorant key
-XFOV = 50  # X-Axis FOV
-YFOV = 50  # Y-Axis FOV
+TOGGLE_KEY = 'F1'  # Toggle on/off 
+XFOV = 70  # X-Axis FOV
+YFOV = 70  # Y-Axis FOV
 INGAME_SENSITIVITY = 0.503 # Replace this with the your in-game sensitivity value
 FLICKSPEED = 1.07437623 * (INGAME_SENSITIVITY ** -0.9936827126)  # Calculate flick speed
 MOVESPEED = 1 / (5 * INGAME_SENSITIVITY) # Calculate move speed
